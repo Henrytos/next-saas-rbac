@@ -3,5 +3,5 @@
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
-  "files": ["tsconfig.json"]
+  "files": ["library.json", "node.json"]
 }
