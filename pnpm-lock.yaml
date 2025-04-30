@@ -29,9 +29,6 @@ importers:
       fastify-type-provider-zod:
         specifier: ^4.0.2
         version: 4.0.2(fastify@5.3.2)(zod@3.24.3)
-      prisma:
-        specifier: ^6.7.0
-        version: 6.7.0
       zod:
         specifier: ^3.24.3
         version: 3.24.3
@@ -48,6 +45,9 @@ importers:
       '@types/node':
         specifier: ^22.14.1
         version: 22.14.1
+      prisma:
+        specifier: ^6.7.0
+        version: 6.7.0
       tsx:
         specifier: ^4.19.3
         version: 4.19.3
@@ -452,15 +452,12 @@ packages:
       esbuild-register: 3.6.0(esbuild@0.25.2)
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /@prisma/debug@6.7.0:
     resolution: {integrity: sha512-RabHn9emKoYFsv99RLxvfG2GHzWk2ZI1BuVzqYtmMSIcuGboHY5uFt3Q3boOREM9de6z5s3bQoyKeWnq8Fz22w==}
-    dev: false
 
   /@prisma/engines-version@6.7.0-36.3cff47a7f5d65c3ea74883f1d736e41d68ce91ed:
     resolution: {integrity: sha512-EvpOFEWf1KkJpDsBCrih0kg3HdHuaCnXmMn7XFPObpFTzagK1N0Q0FMnYPsEhvARfANP5Ok11QyoTIRA2hgJTA==}
-    dev: false
 
   /@prisma/engines@6.7.0:
     resolution: {integrity: sha512-3wDMesnOxPrOsq++e5oKV9LmIiEazFTRFZrlULDQ8fxdub5w4NgRBoxtWbvXmj2nJVCnzuz6eFix3OhIqsZ1jw==}
@@ -470,7 +467,6 @@ packages:
       '@prisma/engines-version': 6.7.0-36.3cff47a7f5d65c3ea74883f1d736e41d68ce91ed
       '@prisma/fetch-engine': 6.7.0
       '@prisma/get-platform': 6.7.0
-    dev: false
 
   /@prisma/fetch-engine@6.7.0:
     resolution: {integrity: sha512-zLlAGnrkmioPKJR4Yf7NfW3hftcvqeNNEHleMZK9yX7RZSkhmxacAYyfGsCcqRt47jiZ7RKdgE0Wh2fWnm7WsQ==}
@@ -478,13 +474,11 @@ packages:
       '@prisma/debug': 6.7.0
       '@prisma/engines-version': 6.7.0-36.3cff47a7f5d65c3ea74883f1d736e41d68ce91ed
       '@prisma/get-platform': 6.7.0
-    dev: false
 
   /@prisma/get-platform@6.7.0:
     resolution: {integrity: sha512-i9IH5lO4fQwnMLvQLYNdgVh9TK3PuWBfQd7QLk/YurnAIg+VeADcZDbmhAi4XBBDD+hDif9hrKyASu0hbjwabw==}
     dependencies:
       '@prisma/debug': 6.7.0
-    dev: false
 
   /@rocketseat/eslint-config@2.2.2(eslint@8.57.1)(typescript@5.8.3):
     resolution: {integrity: sha512-kSWN4FOyhTEiD2O6OGL2OG89MHq8HSoDwOVvy6Xqdv1DytdMvOgZsD7xBYsAyYWvwD0P+YR1nIDluVGCV+GNxA==}
@@ -1246,7 +1240,6 @@ packages:
       esbuild: 0.25.2
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /esbuild@0.25.2:
     resolution: {integrity: sha512-16854zccKPnC+toMywC+uKNeYSv+/eXkevRAfwRD/G9Cleq66m8XFIrigkbvauLLlCfDL45Q2cWegSg53gGBnQ==}
@@ -2607,7 +2600,6 @@ packages:
       fsevents: 2.3.3
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /process-warning@4.0.1:
     resolution: {integrity: sha512-3c2LzQ3rY9d0hc1emcsHhfT9Jwz0cChib/QN89oME2R451w5fy3f0afAhERFZAwrbDU43wk12d0ORBpDVME50Q==}
