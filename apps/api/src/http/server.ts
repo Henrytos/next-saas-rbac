@@ -12,6 +12,7 @@ import {
 
 import { authenticateWithPassword } from './auth/authenticate-with-password'
 import { createAccount } from './auth/create-account'
+import { getProfile } from './auth/get-profile'
 
 const app = fastify()
 
@@ -40,6 +41,7 @@ app.register(fastifySwaggerUI, {
 app.register(fastifyCors)
 app.register(createAccount)
 app.register(authenticateWithPassword)
+app.register(getProfile)
 
 app
   .listen({
