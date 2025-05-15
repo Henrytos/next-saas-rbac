@@ -1,6 +1,6 @@
-import { FastifyInstance } from 'fastify'
-import { ZodTypeProvider } from 'fastify-type-provider-zod'
-import z from 'zod'
+import type { FastifyInstance } from 'fastify'
+import type { ZodTypeProvider } from 'fastify-type-provider-zod'
+import { z } from 'zod'
 
 import { prisma } from '../lib/prisma'
 
@@ -9,6 +9,8 @@ export async function getProfile(app: FastifyInstance) {
     '/profile',
     {
       schema: {
+        tags: ['Auth'],
+        summary: 'Get authenticated user profile',
         response: {
           200: z.object({
             user: z.object({
